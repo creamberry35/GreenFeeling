@@ -1,0 +1,189 @@
+/* 네비게이션 */
+.nav-item {
+    margin-right: 20px;
+    font-size: 18px; 
+    font-weight: bold; 
+  }
+
+.nav-item:hover {
+    background-color: #e9ecef;
+    font-weight: bold; 
+  }
+  .navbar-brand {
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #4CAF50; 
+}
+
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus {
+    color: #4CAF50;
+  }
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 헤더 영역 */
+#home {
+  background-image: url(images/salad.png);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* 인기 채식 식당*/
+#mep img {
+  border-radius: 8px; /*둥근 테두리*/
+}
+
+#mep h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+#mep p {
+  margin-bottom: 21px; 
+  font-size: 19px;
+}
+
+#mep .btn-secondary {
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+#mep a#greenres,
+#mep a#localeat {
+  text-decoration: none;
+}
+
+#mep a#greenres:hover,
+#mep a#localeat:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(8, 168, 16);
+}
+
+/* 사진 넘기기*/
+#carousel {
+  background-color: rgba(169, 169, 169, 0.2);
+  padding: 0px;
+}
+
+/* 뉴스 섹션 */
+#news {
+  background-image: url(images/basil.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#news h2 {
+  font-size: 40;
+}
+
+/* 풋터 스타일 */
+footer {
+  background-color: #4CAF50; 
+}
+
+/* restaurant.html */
+#restaurant img {
+  border-radius: 8px; 
+}
+
+#restaurant h5 {
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #4CAF50; 
+  margin-bottom: 10px; 
+}
+
+#restaurant p {
+  margin-bottom: 21px; 
+  font-size: 19px;
+}
+
+#restaurant a#greenres,
+#restaurant a#localeat,
+#restaurant a#day,
+#restaurant a#osg,
+#restaurant a#place {
+  text-decoration: none;
+}
+
+#restaurant a#greenres:hover,
+#restaurant a#localeat:hover,
+#restaurant a#day:hover,
+#restaurant a#osg:hover,
+#restaurant a#place:hover {
+  text-decoration: underline; 
+  text-decoration-color: rgb(8, 168, 16);
+}
+
+/* 헤더 영역 */
+#vegetarian {
+  background-image: url(images/darkbasil.png);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/*vegetarian.html*/
+#vegetarian-types .card:hover {
+  background-color: rgb(233, 233, 228);
+}
+
+#vegetarian-types1:hover,
+#vegetarian-types2:hover,
+#vegetarian-types3:hover,
+#vegetarian-types4:hover,
+#vegetarian-types5:hover,
+#vegetarian-types6:hover {
+  background-color: rgba(155, 224, 155, 0.5);
+}
+
+/* source 섹션 */
+#source {
+  background-image: url(images/avocado.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#blog {
+  text-decoration: none;
+  color:black
+}
+
+
+
+/*feeling.html*/
+#board {
+  border-top: 2px solid;
+}
+
+#board th {
+  border-bottom: 2px solid;
+}
+
+#last {
+  border-bottom: 2px solid;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.card-hover:hover {
+  background-color: rgba(155, 224, 155, 0.5);
+}
+
+#review a{
+  text-decoration: none;
+  color: #000;
+}
+
+#review a:hover {
+  color: green;
+}

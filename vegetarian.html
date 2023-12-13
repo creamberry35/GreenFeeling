@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Green Feeling</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <!--구글폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--네비게이션 영역 시작-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html#home">Green Feeling</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="nav-menu">
+          <ul class="navbar-nav ms-auto my-2">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">홈</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index.html#home">처음으로</a></li>
+                <li><a class="dropdown-item" href="index.html#Rotm">이달의 레시피</a></li>
+                <li><a class="dropdown-item" href="index.html#carousel">채식 궁금증</a></li>
+                <li><a class="dropdown-item" href="index.html#mep">인기 채식 식당</a></li>
+                <li><a class="dropdown-item" href="index.html#news">비건 News</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="vegetarian.html#vegetarian">채식</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipe.html">레시피</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="restaurant.html">맛집</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feeling.html">Feeling</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--네비게이션 영역 끝-->
+
+    <!--헤더 영역 시작-->
+    <header class="vh-100 text-white d-flex flex-column justify-content-center align-items-center mb-5" id="vegetarian">
+        <h1 class="display-3 fw-bold mt-5 mb-3">채식주의자</h1>
+        <p class="lead mb-2">모든 채식주의자가 채소만 먹는다?</p>
+    </header>
+    <!--헤더 영역 끝-->
+
+    <!-- 채식주의자 섹션 -->
+    <section class="container overflow-hidden py-5" id="vegetarian-types">
+        <div class="text-center">
+            <h2 class="fw-bold mb-4">채식주의자</h2>
+            <p class="lead mb-5">고기류를 피하고 주로 채소, 과일, 해초 따위의 식물성 음식 위주로 식생활을 하는 사람</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/vegan.jpg" class="card-img-top" alt="vegan">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">비건</h5>
+                  <p class="card-text">Vegan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/Lacto.jpg" class="card-img-top" alt="Lacto">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">락토 채식</h5>
+                  <p class="card-text">Lacto</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/Ovo.jpg" class="card-img-top" alt="Ovo">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">오보 채식</h5>
+                  <p class="card-text">Ovo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/Lacto-ovo.jpg" class="card-img-top" alt="Lacto-ovo">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">락토 오보 채식</h5>
+                  <p class="card-text">Lacto-ovo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/Pollo.jpg" class="card-img-top" alt="Pollo">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">폴로 채식</h5>
+                  <p class="card-text">Pollo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/Pesco.jpg" class="card-img-top" alt="Pesco">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">페스코 채식</h5>
+                  <p class="card-text">Pesco</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--채식주의자 색션 끝-->
+
+    <!--채식 종류 소개 시작-->
+    <!--비건-->
+    <section class="container py-5 mt-5" id="vegetarian-types1">
+        <div class="text-center">
+            <h2 class="fw-bold mb-4 text-success">비건(Vegan)</h2>
+            <p class="lead mb-2">완전 채식주의자로 동물의 알, 유제품, 꿀 등 동물에서 얻은 식품은 일절 거부하고 완전히 식물성 식품만 섭취하는 채식주의자</p>
+            <p class="lead mb-5 text-success"><i class="bi bi-bag-check"></i> 곡류, 콩, 채소, 견과류, 과일</p>
+        </div>
+    </section>
+
+    <!--락토-->
+    <section class="container py-5 mt-5" id="vegetarian-types2">
+        <div class="text-center">
+            <h2 class="fw-bold mb-4 text-success">락토 베지테리언(Lacto-vegetarian)</h2>
+            <p class="lead mb-2">우유와 유제품은 먹지만 생선, 해물, 달걀은 먹지 않고 주로 콩과 식물로부터 단백질을 섭취하는 채식주의자</p>
+            <p class="lead mb-5 text-success"><i class="bi bi-bag-check"></i> 유제품, 꿀, 곡류, 콩, 채소, 견과류, 과일</p>
+        </div>
+    </section>
+
+    <!--오보-->
+    <section class="container py-5 mt-5" id="vegetarian-types3">
+        <div class="text-center">
+            <h2 class="fw-bold mb-4 text-success">오보 베지테리언(Ovo-vegetarian)</h2>
+            <p class="lead mb-2">'OVO'는 라틴어로 계란을 뜻하는 것으로 동물의 알을 먹는 채식주의자</p>
+            <p class="lead mb-5 text-success"><i class="bi bi-bag-check"></i> 달걀, 꿀, 곡류, 콩, 채소, 견과류, 과일</p>
+        </div>
+    </section>
+
+    <!--락토 오보-->
+    <section class="container py-5 mt-5" id="vegetarian-types4">
+        <div class="text-center">
+            <h2 class="fw-bold mb-4 text-success">락토 오보 베지테리언(Lacto ovo-vegetarian)</h2>
+            <p class="lead mb-2">생선과 해물은 안 먹지만 달걀, 우유, 유제품은 섭취하는 채식주의자</p>
+            <p class="lead mb-5 text-success"><i class="bi bi-bag-check"></i> 달걀, 유제품, 꿀, 곡류, 콩, 채소, 견과류, 과일</p>
+        </div>
+    </section>
+
+    <!--페스코-->
+    <section class="container py-5 mt-5" id="vegetarian-types6">
+        <div class="text-center">
+            <h2 class="fw-bold mb-4 text-success">페스코 베지테리언(Pesco vegetarian)</h2>
+            <p class="lead mb-2">일반적인 고기류를 먹지 않고 해산물과 달걀, 유제품을 섭취하는 채식주의자</p>
+            <p class="lead mb-5 text-success"><i class="bi bi-bag-check"></i> 생선, 달걀, 유제품, 꿀, 곡류, 콩, 채소, 견과류, 과일</p>
+        </div>
+    </section>
+
+    <!--폴로-->
+    <section class="container py-5 my-5" id="vegetarian-types5">
+        <div class="text-center">
+            <h2 class="fw-bold mb-4 text-success">폴로 베지테리언(Pollo vegetarian)</h2>
+            <p class="lead mb-2">붉은 살코기는 먹지 않지만 우유, 달걀, 생선 그리고 닭고기나 오리고기 등 조류까지 허용되는 채식주의자</p>
+            <p class="lead mb-5 text-success"><i class="bi bi-bag-check"></i> 가금류, 생선, 달걀, 유제품, 꿀, 곡류, 콩, 채소, 견과류, 과일</p>
+        </div>
+    </section>
+
+
+    <!--출처 섹션 시작-->
+    <section class="py-5" id="source">
+      <div class="container">
+        <div class="row p-4 align-items-center">
+          <div class="col-lg-9 text-light">
+            <h2 class="fw-bold mb-3">[출처] 서울시교육청 블로그</h2>
+            <p>'서울교육나침반'</p>
+          </div>
+          <div class="col-lg-5">
+            <!--Button trigger modal-->
+            <a href="https://blog.naver.com/seouledu2012/221548826510" id="blog" class="btn btn-warning px-4" target="_blank">블로그 보러가기</a>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--출처 섹션 끝-->
+
+
+    <!--풋터 시작-->
+    <footer class="text-white">
+        <div class="container text-center">
+          <p class="py-4 mb-0">contact. 010-0000-0000 / Green Feeling@naver.com</p>
+        </div>
+      </footer>
+    <!--풋터 끝-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
